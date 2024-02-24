@@ -1,0 +1,742 @@
+{
+	"type": "root",
+	"children": [
+		{
+			"type": "list",
+			"depth": 0,
+			"ordered": false,
+			"children": [
+				{
+					"type": "listItem",
+					"depth": 0,
+					"children": [
+						{
+							"type": "text",
+							"value": "A 無序列表項 1"
+						}
+					]
+				},
+				{
+					"type": "listItem",
+					"depth": 0,
+					"children": [
+						{
+							"type": "text",
+							"value": "B 無序列表項 2"
+						},
+						{
+							"type": "list",
+							"depth": 1,
+							"ordered": false,
+							"children": [
+								{
+									"type": "listItem",
+									"depth": 1,
+									"children": [
+										{
+											"type": "text",
+											"value": "C 無序子列表項 1"
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"depth": 1,
+									"children": [
+										{
+											"type": "text",
+											"value": "D 無序子列表項 2"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "listItem",
+					"depth": 0,
+					"children": [
+						{
+							"type": "text",
+							"value": "E 無序列表項 1"
+						}
+					]
+				},
+				{
+					"type": "listItem",
+					"depth": 0,
+					"children": [
+						{
+							"type": "text",
+							"value": "F 無序列表項 2"
+						},
+						{
+							"type": "list",
+							"depth": 1,
+							"ordered": true,
+							"children": [
+								{
+									"type": "listItem",
+									"depth": 1,
+									"children": [
+										{
+											"type": "text",
+											"value": "G 有序子列表項 1"
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"depth": 1,
+									"children": [
+										{
+											"type": "text",
+											"value": "H 有序子列表項 2"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "listItem",
+					"depth": 0,
+					"children": [
+						{
+							"type": "text",
+							"value": "I 無序列表項 1"
+						}
+					]
+				},
+				{
+					"type": "listItem",
+					"depth": 0,
+					"children": [
+						{
+							"type": "text",
+							"value": "J 無序列表項 2"
+						},
+						{
+							"type": "list",
+							"depth": 1,
+							"ordered": false,
+							"children": [
+								{
+									"type": "listItem",
+									"depth": 1,
+									"children": [
+										{
+											"type": "text",
+											"value": "K 有序子列表項 1"
+										},
+										{
+											"type": "list",
+											"depth": 2,
+											"ordered": false,
+											"children": [
+												{
+													"type": "listItem",
+													"depth": 2,
+													"children": [
+														{
+															"type": "text",
+															"value": "L 有序子列表項 2"
+														}
+													]
+												},
+												{
+													"type": "listItem",
+													"depth": 2,
+													"children": [
+														{
+															"type": "text",
+															"value": "M 有序子列表項 1"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"depth": 1,
+									"children": [
+										{
+											"type": "text",
+											"value": "N 有序子列表項 2"
+										}
+									]
+								},
+								{
+									"type": "paragraph",
+									"children": [
+										{
+											"type": "math",
+											"block": true,
+											"value": ""
+										}
+									]
+								},
+								{
+									"type": "listItem",
+									"depth": 0,
+									"children": [
+										{
+											"type": "text",
+											"value": "O 有序列表項 1"
+										}
+									]
+								},
+								{
+									"type": "list",
+									"depth": 0,
+									"ordered": true,
+									"children": [
+										{
+											"type": "listItem",
+											"depth": 0,
+											"children": [
+												{
+													"type": "text",
+													"value": "P 有序列表項 2"
+												},
+												{
+													"type": "list",
+													"depth": 1,
+													"ordered": true,
+													"children": [
+														{
+															"type": "listItem",
+															"depth": 1,
+															"children": [
+																{
+																	"type": "text",
+																	"value": "Q 有序子列表項 1"
+																}
+															]
+														},
+														{
+															"type": "listItem",
+															"depth": 1,
+															"children": [
+																{
+																	"type": "text",
+																	"value": "R 有序子列表項 2"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"type": "listItem",
+											"depth": 0,
+											"children": [
+												{
+													"type": "text",
+													"value": "S 有序列表項 1"
+												},
+												{
+													"type": "list",
+													"depth": 1,
+													"ordered": true,
+													"children": [
+														{
+															"type": "listItem",
+															"depth": 1,
+															"children": [
+																{
+																	"type": "text",
+																	"value": "T 有序子列表項 2"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "math",
+																	"block": true,
+																	"value": ""
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": "> 這是一個引用。"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": ">"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": "> > 嵌套引用。"
+																}
+															]
+														},
+														{
+															"type": "heading",
+															"level": 1,
+															"children": [
+																{
+																	"type": "text",
+																	"value": "標題 1"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "math",
+																	"block": true,
+																	"value": ""
+																}
+															]
+														},
+														{
+															"type": "heading",
+															"level": 2,
+															"children": [
+																{
+																	"type": "text",
+																	"value": "標題 2"
+																}
+															]
+														},
+														{
+															"type": "heading",
+															"level": 3,
+															"children": [
+																{
+																	"type": "text",
+																	"value": "標題 3"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "math",
+																	"block": true,
+																	"value": ""
+																}
+															]
+														},
+														{
+															"type": "heading",
+															"level": 4,
+															"children": [
+																{
+																	"type": "text",
+																	"value": "標題 4"
+																}
+															]
+														},
+														{
+															"type": "heading",
+															"level": 5,
+															"children": [
+																{
+																	"type": "text",
+																	"value": "標題 5"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "math",
+																	"block": true,
+																	"value": ""
+																}
+															]
+														},
+														{
+															"type": "heading",
+															"level": 6,
+															"children": [
+																{
+																	"type": "text",
+																	"value": "標題 6"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "math",
+																	"block": true,
+																	"value": ""
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": "`行內代碼` 示例。"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "math",
+																	"block": true,
+																	"value": "---"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": "```javascript"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": "// 代碼塊"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": "console.log('Hello, Markdown!');"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": "```"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "math",
+																	"block": true,
+																	"value": "[鏈接文本](http://example.com)"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": "![圖片描述](http://example.com/image.jpg)"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "math",
+																	"block": true,
+																	"value": "| 表格頭 | 表格頭 | 表格頭 |\n| ------ | ------ | ------ |\n| 單元格 | 單元格 | 單元格 |\n| 單元格 | 單元格 | 單元格 |"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": "---"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "math",
+																	"block": true,
+																	"value": "*斜體文本* 或 _斜體文本_"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": "**粗體文本** 或 __粗體文本__"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "math",
+																	"block": true,
+																	"value": "***粗斜體文本*** 或 ___粗斜體文本___"
+																}
+															]
+														},
+														{
+															"type": "paragraph",
+															"children": [
+																{
+																	"type": "text",
+																	"value": "~~刪除線文本~~"
+																}
+															]
+														},
+														{
+															"type": "listItem",
+															"depth": 0,
+															"children": [
+																{
+																	"type": "text",
+																	"value": "[ ] 任務列表未完成"
+																}
+															]
+														},
+														{
+															"type": "list",
+															"depth": 0,
+															"ordered": false,
+															"children": [
+																{
+																	"type": "listItem",
+																	"depth": 0,
+																	"children": [
+																		{
+																			"type": "text",
+																			"value": "[x] 任務列表已完成"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "math",
+																			"block": true,
+																			"value": ""
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "text",
+																			"value": "`行內代碼`"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "math",
+																			"block": true,
+																			"value": "```\n沒有指定語言的代碼塊\n```"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "text",
+																			"value": "```python"
+																		}
+																	]
+																},
+																{
+																	"type": "heading",
+																	"level": 1,
+																	"children": [
+																		{
+																			"type": "text",
+																			"value": "指定語言的代碼塊"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "text",
+																			"value": "print(\"Hello, Markdown!\")"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "text",
+																			"value": "```"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "math",
+																			"block": true,
+																			"value": "$\\text{如果整行都是inline-math}$"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "text",
+																			"value": "單行數學公式"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "math",
+																			"block": false,
+																			"value": ""
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "text",
+																			"value": "y = ax^2 + bx + c"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "math",
+																			"block": false,
+																			"value": ""
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "math",
+																			"block": true,
+																			"value": "多行數學公式\n$$\n\\begin{aligned}\nx = \\cos(t)\\\\\ny = \\sin(t)\n\\end{aligned}\n$$"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "text",
+																			"value": "這是一個自動鏈接：[google](http://google.com)"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "math",
+																			"block": true,
+																			"value": "這是一張圖片 ![無替代文字的圖片](http://example.com/image.jpg)"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "text",
+																			"value": "數學公式 "
+																		},
+																		{
+																			"type": "math",
+																			"block": false,
+																			"value": "\\sqrt{x}"
+																		},
+																		{
+																			"type": "text",
+																			"value": " 或是 "
+																		},
+																		{
+																			"type": "math",
+																			"block": false,
+																			"value": "\\frac{1}{2}"
+																		}
+																	]
+																},
+																{
+																	"type": "paragraph",
+																	"children": [
+																		{
+																			"type": "math",
+																			"block": true,
+																			"value": "普通段落文本。支持*斜體*、**粗體**、~~刪除線~~。"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

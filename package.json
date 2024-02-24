@@ -1,0 +1,30 @@
+{
+  "name": "md2tex",
+  "version": "1.0.0",
+  "description": "transform markdown to LaTeX",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "tree": " tree -a -I '.git|node_modules|memo'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jeffreymaomao/md2tex.git"
+  },
+  "keywords": [
+    "markdown",
+    "latex"
+  ],
+  "author": "Chang-Mao Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeffreymaomao/md2tex/issues"
+  },
+  "homepage": "https://github.com/Jeffreymaomao/md2tex#readme",
+  "dependencies": {
+    "remark": "^15.0.1",
+    "remark-parse": "^11.0.0"
+  }
+}

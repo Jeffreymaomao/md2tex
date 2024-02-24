@@ -1,0 +1,7 @@
+node_modules/
+memo/
+*.pxd/
+.DS_Store
+*.log
+*.tmp
+
