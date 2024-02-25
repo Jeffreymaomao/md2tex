@@ -2,66 +2,27 @@
 	"type": "root",
 	"children": [
 		{
-			"type": "list",
-			"depth": 0,
-			"ordered": false,
+			"type": "paragraph",
 			"children": [
 				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Item 1"
-						},
-						{
-							"type": "list",
-							"depth": 1,
-							"ordered": false,
-							"children": [
-								{
-									"type": "listItem",
-									"depth": 1,
-									"children": [
-										{
-											"type": "text",
-											"value": "Item 2"
-										}
-									]
-								},
-								{
-									"type": "paragraph",
-									"children": [
-										{
-											"type": "math",
-											"block": true,
-											"value": "\\frac{1}{2}"
-										}
-									]
-								}
-							]
-						}
-					]
+					"type": "image",
+					"text": "Logo",
+					"url": "https://example.com/logo.png"
 				},
 				{
-					"type": "paragraph",
-					"children": [
-						{
-							"type": "math",
-							"block": true,
-							"value": "\\frac{1}{2}"
-						}
-					]
+					"type": "link",
+					"text": "*Logo*",
+					"image": {
+						"url": "https://example.com/logo.png",
+						"title": "访问官网"
+					}
 				},
 				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Item 3"
-						}
-					]
+					"type": "link",
+					"text": "",
+					"image": {
+						"url": "https://example.com/logo.png"
+					}
 				}
 			]
 		}

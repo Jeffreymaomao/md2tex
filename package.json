@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app",
+    "start": "node bin/md2tex.js",
     "tree": " tree -a -I '.git|node_modules|memo'"
   },
   "repository": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Jeffreymaomao/md2tex#readme",
   "dependencies": {
+    "readline": "^1.3.0",
     "remark": "^15.0.1",
     "remark-parse": "^11.0.0"
   }
