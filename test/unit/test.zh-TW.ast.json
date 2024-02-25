@@ -13,16 +13,6 @@
 						{
 							"type": "text",
 							"value": "Item 1"
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Item 2"
 						},
 						{
 							"type": "list",
@@ -35,21 +25,31 @@
 									"children": [
 										{
 											"type": "text",
-											"value": "Subitem 2.1"
+											"value": "Item 2"
 										}
 									]
 								},
 								{
-									"type": "listItem",
-									"depth": 1,
+									"type": "paragraph",
 									"children": [
 										{
-											"type": "text",
-											"value": "Subitem 2.2"
+											"type": "math",
+											"block": true,
+											"value": "\\frac{1}{2}"
 										}
 									]
 								}
 							]
+						}
+					]
+				},
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "math",
+							"block": true,
+							"value": "\\frac{1}{2}"
 						}
 					]
 				},
@@ -60,352 +60,6 @@
 						{
 							"type": "text",
 							"value": "Item 3"
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Item 1"
-						},
-						{
-							"type": "list",
-							"depth": 1,
-							"ordered": false,
-							"children": [
-								{
-									"type": "listItem",
-									"depth": 1,
-									"children": [
-										{
-											"type": "text",
-											"value": "Subitem 1.1"
-										},
-										{
-											"type": "list",
-											"depth": 2,
-											"ordered": false,
-											"children": [
-												{
-													"type": "listItem",
-													"depth": 2,
-													"children": [
-														{
-															"type": "text",
-															"value": "Subsubitem 1.1.1"
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Item 2"
-						}
-					]
-				},
-				{
-					"type": "paragraph",
-					"children": [
-						{
-							"type": "math",
-							"block": true,
-							"value": ""
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "First ordered item"
-						}
-					]
-				}
-			]
-		},
-		{
-			"type": "list",
-			"depth": 0,
-			"ordered": true,
-			"children": [
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Second ordered item"
-						},
-						{
-							"type": "list",
-							"depth": 1,
-							"ordered": false,
-							"children": [
-								{
-									"type": "listItem",
-									"depth": 1,
-									"children": [
-										{
-											"type": "text",
-											"value": "Unordered subitem"
-										},
-										{
-											"type": "list",
-											"depth": 2,
-											"ordered": false,
-											"children": [
-												{
-													"type": "listItem",
-													"depth": 2,
-													"children": [
-														{
-															"type": "text",
-															"value": "Unordered subitem"
-														},
-														{
-															"type": "list",
-															"depth": 3,
-															"ordered": true,
-															"children": [
-																{
-																	"type": "listItem",
-																	"depth": 3,
-																	"children": [
-																		{
-																			"type": "text",
-																			"value": "Sub-ordered item"
-																		}
-																	]
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Third ordered item"
-						}
-					]
-				}
-			]
-		},
-		{
-			"type": "list",
-			"depth": 0,
-			"ordered": false,
-			"children": [
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Unordered item 1"
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Unordered item 2"
-						},
-						{
-							"type": "list",
-							"depth": 1,
-							"ordered": true,
-							"children": [
-								{
-									"type": "listItem",
-									"depth": 1,
-									"children": [
-										{
-											"type": "text",
-											"value": "Ordered subitem"
-										}
-									]
-								},
-								{
-									"type": "listItem",
-									"depth": 1,
-									"children": [
-										{
-											"type": "text",
-											"value": "Ordered subitem"
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Unordered item 3"
-						}
-					]
-				},
-				{
-					"type": "paragraph",
-					"children": [
-						{
-							"type": "math",
-							"block": true,
-							"value": ""
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Item 1"
-						}
-					]
-				},
-				{
-					"type": "paragraph",
-					"children": [
-						{
-							"type": "text",
-							"value": "-"
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 1,
-					"children": [
-						{
-							"type": "text",
-							"value": "Subitem 2.1"
-						},
-						{
-							"type": "list",
-							"depth": 2,
-							"ordered": false,
-							"children": [
-								{
-									"type": "listItem",
-									"depth": 2,
-									"children": [
-										{
-											"type": "text",
-											"value": ""
-										},
-										{
-											"type": "list",
-											"depth": 3,
-											"ordered": false,
-											"children": [
-												{
-													"type": "listItem",
-													"depth": 3,
-													"children": [
-														{
-															"type": "text",
-															"value": "Subsubitem 3.1"
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Item 3"
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Item with **bold text**"
-						}
-					]
-				},
-				{
-					"type": "listItem",
-					"depth": 0,
-					"children": [
-						{
-							"type": "text",
-							"value": "Item with *italic text* and a [link](http://example.com)"
-						},
-						{
-							"type": "list",
-							"depth": 1,
-							"ordered": false,
-							"children": [
-								{
-									"type": "listItem",
-									"depth": 1,
-									"children": [
-										{
-											"type": "text",
-											"value": "Subitem with `code`"
-										}
-									]
-								},
-								{
-									"type": "listItem",
-									"depth": 1,
-									"children": [
-										{
-											"type": "text",
-											"value": "Subitem with an image ![Image](http://example.com/image.jpg)"
-										}
-									]
-								}
-							]
 						}
 					]
 				}
