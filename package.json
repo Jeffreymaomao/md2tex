@@ -2,7 +2,7 @@
   "name": "md2tex",
   "version": "1.0.0",
   "description": "transform markdown to LaTeX",
-  "main": "index.js",
+  "main": "bin/md2tex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bin/md2tex.js",
