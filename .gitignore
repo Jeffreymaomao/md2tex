@@ -1,5 +1,7 @@
 node_modules/
-memo/
+test/
+bin/dist/
+
 *.pxd/
 .DS_Store
 *.log

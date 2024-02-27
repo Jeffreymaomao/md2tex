@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bin/md2tex.js",
     "tree": " tree -a -I '.git|node_modules|test|.DS_Store'",
-    "build": "pkg ./bin/md2tex.js -o ./bin/md2tex -c package.json -t node16-macos,node14-linux,node14-win",
-    "build-mac": "pkg ./bin/md2tex.js -o ./bin/md2tex -c package.json -t node16-macos-arm64"
+    "build": "pkg ./bin/md2tex.js -o ./bin/dist/md2tex -c package.json -t node16-macos,node14-linux,node14-win",
+    "build-mac": "pkg ./bin/md2tex.js -o ./bin/dist/md2tex -c package.json -t node16-macos-arm64"
   },
   "repository": {
     "type": "git",
