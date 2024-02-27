@@ -17,6 +17,9 @@
     "markdown",
     "latex"
   ],
+  "bin": {
+    "md2tex": "./index.js"
+  },
   "author": "Chang-Mao Yang",
   "license": "ISC",
   "bugs": {

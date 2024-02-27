@@ -33,7 +33,6 @@ const processFile = async (inputFile, outputFile) => {
     try {
         const data = await fs.readFile(inputFile, { encoding: 'utf8' });
         const ast = md2ast(data);
-        // console.log(JSON.stringify(ast,null,2))
         const tex = ast2tex(ast);
         await fs.writeFile(outputFile, tex);
         console.log(`Markdown in: ${inputFile}`);
