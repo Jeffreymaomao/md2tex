@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-import yargs from 'yargs';
-import { hideBin } from 'yargs/helpers';
-import fs from 'fs/promises';
-import path from 'path';
-import { md2ast } from '../lib/parse.js';
-import { ast2tex } from '../lib/transformer.js';
+const yargs = require('yargs');
+const { hideBin } = require('yargs/helpers');
+const fs = require('fs').promises;
+const path = require('path');
+const { md2ast } = require('../lib/parse.js');
+const { ast2tex } = require('../lib/transformer.js');
 
 // 解析命令行参数
 const argv = yargs(hideBin(process.argv))
@@ -36,7 +36,7 @@ const processFile = async (inputFile, outputFile) => {
         const tex = ast2tex(ast);
         await fs.writeFile(outputFile, tex);
         console.log(`Markdown in: ${inputFile}`);
-        console.log(`LaTeX out: ${outputFile}`);
+        console.log(`LaTeX   out: ${outputFile}`);
     } catch (err) {
         console.error(err);
     }
