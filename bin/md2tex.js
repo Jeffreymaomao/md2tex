@@ -1,29 +1,46 @@
+#!/usr/bin/env node
+
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
+import fs from 'fs/promises';
+import path from 'path';
 import { md2ast } from '../lib/parse.js';
 import { ast2tex } from '../lib/transformer.js';
-import { readFile, writeFile } from 'fs';
-import { createInterface } from 'readline';
 
-const readLineInterface = createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+// 解析命令行参数
+const argv = yargs(hideBin(process.argv))
+    .usage('Usage: $0 <inputFile> -o [outputFile]')
+    .demandCommand(1)
+    .option('o', {
+        alias: 'output',
+        describe: 'Output file path',
+        type: 'string',
+        requiresArg: true,
+        demandOption: false
+    })
+    .help()
+    .argv;
 
-readLineInterface.question('file name: ', (filename) => {
+const inputFile = argv._[0];
+const outputFile = argv.o;
 
-    readFile(`./${filename}.md`, { encoding: 'utf8' }, (err, data) => {
-        if (err){console.error(err);return;}
-
+// 读取文件，转换并写入输出
+const processFile = async (inputFile, outputFile) => {
+    if (!outputFile) {
+        const outputFileName = path.basename(inputFile, path.extname(inputFile)) + '.tex';
+        outputFile = path.join(path.dirname(inputFile), outputFileName);
+    }
+    try {
+        const data = await fs.readFile(inputFile, { encoding: 'utf8' });
         const ast = md2ast(data);
+        // console.log(JSON.stringify(ast,null,2))
         const tex = ast2tex(ast);
+        await fs.writeFile(outputFile, tex);
+        console.log(`Markdown in: ${inputFile}`);
+        console.log(`LaTeX out: ${outputFile}`);
+    } catch (err) {
+        console.error(err);
+    }
+};
 
-        writeFile(`./${filename}.tex`, tex, function(err) {
-            if (err) console.log(err);
-            console.log(`markdown in : ./${filename}.md`);
-            console.log(`LaTeX out   : ./${filename}.tex`);
-        });
-
-
-    });
-
-    readLineInterface.close();
-});
+processFile(inputFile, outputFile);
