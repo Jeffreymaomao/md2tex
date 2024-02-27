@@ -1,14 +1,75 @@
-\subsection{標題 1}
 
-\subsubsection{標題 2}
+% Sets the document class and font size
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=1in]{geometry}
 
-\subsubsubsection{標題 3}
+\usepackage[utf8]{inputenc}    % Input encoding
+\usepackage[T1]{fontenc}       % Font encoding
+\usepackage{fontspec}          % font encoding
+
+% Advanced math typesetting
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{physics}
+
+% Symbols and Text
+\usepackage{bbold}     % bold font
+\usepackage{ulem}      % strikethrough
+\usepackage{listings}  % Source code listing
+\usepackage{import}    % Importing code and other documents
+
+% graphics
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{tcolorbox}
+
+% figure
+\usepackage{float}
+\usepackage{subfigure}
+
+\usepackage{hyperref}  % Hyperlinks in the document
+\hypersetup{
+    colorlinks=true,
+    linkcolor=Blue,
+    filecolor=red,
+    urlcolor=Blue,
+    citecolor=blue,
+    pdftitle={Article},
+    pdfauthor={Author},
+}
+
+\usepackage{xeCJK}             % Chinese, Japanese, and Korean characters
+\setCJKfamilyfont{kai}{標楷體}
+%================================================================================================
+\begin{document}
+
+\section{標題 1}
+
+\subsection{標題 2}
+
+\subsubsection{標題 3}
 
 \textbf{標題 4}
 
 \textbf{標題 5}
 
 \textbf{標題 6}
+
+\begin{quote}
+	這是一個引用。
+	\begin{quote}
+	嵌套引用。
+	\end{quote}
+
+
+\end{quote}
+
+\begin{quote}
+	這是另一段引用
+\end{quote}
 
 
 \begin{itemize}
@@ -17,12 +78,14 @@
 	\begin{itemize}
 		\item C 無序子列表項 1
 		\item D 無序子列表項 2
+
 	\end{itemize}
 	\item E 無序列表項 1
 	\item F 無序列表項 2
 	\begin{enumerate}
 		\item G 有序子列表項 1
 		\item H 有序子列表項 2
+
 	\end{enumerate}
 	\item I 無序列表項 1
 	\item J 無序列表項 2
@@ -31,9 +94,12 @@
 		\begin{itemize}
 			\item L 有序子列表項 2
 			\item M 有序子列表項 1
+
 		\end{itemize}
 		\item N 有序子列表項 2
+
 	\end{itemize}
+
 \end{itemize}
 \begin{enumerate}
 	\item O 有序列表項 1
@@ -41,16 +107,16 @@
 	\begin{enumerate}
 		\item Q 有序子列表項 1
 		\item R 有序子列表項 2
+
 	\end{enumerate}
 	\item S 有序列表項 1
 	\begin{enumerate}
 		\item T 有序子列表項 2
+
 	\end{enumerate}
-\begin{figure}[htbp]
-\includegraphics{http://example.com/image.jpg}
-\caption{\textbf{image title}: 無替代文字的圖片}
-\end{figure}
+
 \end{enumerate}
+
 \begin{equation}
 y = ax+b
 \end{equation}
@@ -62,9 +128,11 @@ y = ax+b
 \hrule
 \vspace{6pt}
 
+
 \begin{equation}
 y = ax+b
 \end{equation}
+
 
 \begin{lstlisting}% [ language = javascript ]
 // 代碼塊
@@ -72,11 +140,6 @@ console.log('Hello, Markdown!');
 \end{lstlisting}
 
 \href{http://example.com}{鏈接文本}
-
-\begin{figure}[htbp]
-\includegraphics{http://example.com/image.jpg}
-\caption{圖片描述}
-\end{figure}
 
 | 表格頭 | 表格頭 | 表格頭 || ------ | ------ | ------ || 單元格 | 單元格 | 單元格 || 單元格 | 單元格 | 單元格 |
 
@@ -88,33 +151,38 @@ console.log('Hello, Markdown!');
 
 \textbf{粗體文本} 或 \textbf{粗體文本}
 
-\textbf{\textit{粗斜體文本} 或 \textbf{\textit{粗斜體文本}
+\textbf{\textit{粗斜體文本}} 或 \textbf{\textit{粗斜體文本}}
 
 \sout{刪除線文本}
 
 \begin{itemize}
 	\item [ ] 任務列表未完成
 	\item [x] 任務列表已完成
+
 \end{itemize}
 \lstinline{行內代碼}
+
 
 \begin{lstlisting}
 沒有指定語言的代碼塊
 \end{lstlisting}
 
-\subsection{指定語言的代碼塊}
+\section{指定語言的代碼塊}
+
 \begin{lstlisting}% [ language = python ]
 print("Hello, Markdown!")
 \end{lstlisting}
 
 $\text{如果整行都是inline-math}$
 
-單行數學公式\begin{equation}
+單行數學公式
+\begin{equation}
 y = ax^2 + bx + c
 \end{equation}
 
 
-多行數學公式\begin{equation}
+多行數學公式
+\begin{equation}
 \begin{aligned}
 x = \cos(t)\\
 y = \sin(t)
@@ -125,13 +193,12 @@ y = \sin(t)
 
 這是一個自動鏈接：\href{http://google.com}{google}
 
-這是一張圖片 \begin{figure}[htbp]
-\includegraphics{http://example.com/image.jpg}
-\caption{無替代文字的圖片}
-\end{figure}
-
 數學公式 $\sqrt{x}$ 或是 $\frac{1}{2}$
 
 普通段落文本。支持\textit{斜體}、\textbf{粗體}、\sout{刪除線}。
 
 
+
+
+%================================================================================================
+\end{document}

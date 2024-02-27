@@ -41,7 +41,6 @@
 3. S 有序列表項 1
     1. T 有序子列表項 2
 
-![無替代文字的圖片](http://example.com/image.jpg "image title")
 
 $$
 y = ax+b
@@ -62,8 +61,6 @@ console.log('Hello, Markdown!');
 ```
 
 [鏈接文本](http://example.com)
-
-![圖片描述](http://example.com/image.jpg)
 
 | 表格頭 | 表格頭 | 表格頭 |
 | ------ | ------ | ------ |
@@ -111,8 +108,6 @@ $$
 
 
 這是一個自動鏈接：[google](http://google.com)
-
-這是一張圖片 ![無替代文字的圖片](http://example.com/image.jpg)
 
 數學公式 $\sqrt{x}$ 或是 $\frac{1}{2}$
 
