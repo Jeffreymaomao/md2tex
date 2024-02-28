@@ -1,6 +1,6 @@
 {
   "name": "md2tex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "transform markdown to LaTeX",
   "main": "bin/md2tex.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "latex"
   ],
   "bin": {
-    "md2tex": "./bin/md2tex.js"
+    "md2tex": "bin/md2tex.js"
   },
   "author": "Chang-Mao Yang",
   "license": "ISC",
