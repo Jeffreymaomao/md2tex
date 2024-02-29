@@ -12,9 +12,9 @@
 - For those who don't have Node.js and npm
     Currently, `md2tex` can be installed by downloading the pre-compiled binary file. Please select the appropriate version for your operating system.
 
-    [Download for macOS](https://github.com/yourusername/md2tex/releases/download/v1.0.2/md2tex-macos)
-    [Download for Windows](https://github.com/yourusername/md2tex/releases/download/v1.0.2/md2tex-win.exe)
-    [Download for Linux](https://github.com/yourusername/md2tex/releases/download/v1.0.2/md2tex-linux)
+    [Download for macOS](https://github.com/Jeffreymaomao/md2tex/releases/download/v1.0.2/md2tex-macos)
+    [Download for Windows](https://github.com/Jeffreymaomao/md2tex/releases/download/v1.0.2/md2tex-win.exe)
+    [Download for Linux](https://github.com/Jeffreymaomao/md2tex/releases/download/v1.0.2/md2tex-linux)
 
 ## Usage
 
