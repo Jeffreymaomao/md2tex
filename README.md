@@ -49,6 +49,11 @@ This will create `output.tex` in the same directory as `input.md`.
 
 > I apologize for the frequent updates and modifications. This is my first time creating a tool like this with Node.js, and there are many aspects I didn't fully consider.
 
+### v1.0.5
+
+- 2024/03/05
+- **Added**: Added functionality for converting `table`.
+
 ### v1.0.4
 
 - 2024/03/05
