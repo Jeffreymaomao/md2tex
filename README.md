@@ -45,6 +45,35 @@ md2tex input.md
 
 This will create `output.tex` in the same directory as `input.md`.
 
+## Changelog
+
+> I apologize for the frequent updates and modifications. This is my first time creating a tool like this with Node.js, and there are many aspects I didn't fully consider.
+
+### v1.0.4
+
+- 2024/03/05
+- **Fixed**: Fixed some issues within `display-math` functionality.
+
+### v1.0.3
+
+- 2024/03/05
+- **Added**: Added functionality for converting `display-math` within `blockquote`.
+
+### v1.0.2
+
+- 2024/02/29
+- **Added**: Introduced functionality for converting `underline`.
+
+### v1.0.1
+
+- 2024/02/28
+- **Added**: Implemented functionality for converting `blockquote/display-code`.
+
+### v1.0.0
+
+- 2024/02/27
+- **Added**: Released the initial version, which includes basic functionality for conversions (`display-math`, `inline-math`, `inline-code`, `bold`, `italic`, etc.).
+
 ## License
 
 `md2tex` is released under the MIT license. For more information, see the [LICENSE](LICENSE) file.
