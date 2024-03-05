@@ -53,6 +53,7 @@ This will create `output.tex` in the same directory as `input.md`.
 
 - 2024/03/05
 - **Added**: Added functionality for converting `table`.
+- **Added**: Added functionality for converting  `list` within `blockquote`.
 
 ### v1.0.4
 
